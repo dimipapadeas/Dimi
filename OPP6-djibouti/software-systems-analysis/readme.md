@@ -1,16 +1,16 @@
 
-# S/W components standar techologies
+# S/W components standard technologies
 
 
-## Local Dissemination 
+## Local Dissemination
 
 ### Web Server
 Tomcat, Java 8 JPA/Hibernate ORM
- >Docker conained
+ >Docker contained
 
-### File System 
+### File System
  RedHat/openSUSE  OpenSSH (SFTP server)
- >Docker conained
+ >Docker contained
 
 
 ### Dissemination Channel
@@ -18,18 +18,18 @@ TBD Queue? FTP ?
 
 ### Storage
 MariaDB or MySQL
->Docker conained
+>Docker contained
 
 
 ### Web App /Sitemap / Directory listing pages
- Angular2 + Java 8, maven3, JPA/Hibernate ORM, Apache Felix, OSGi, Apache CXF services, Blueprint.xml, REST, SOAP, htaccess apache.
->Karaf Docker conained
+ Angular (v4 or latest) + Java 8, maven3, JPA/Hibernate ORM, Apache Felix, OSGi, Apache CXF services, Blueprint.xml, REST, SOAP,  Apache htaccess.
+>Karaf Docker contained
 
 
 ## Authoritative WIS Catalogue (AWISC)
 
 ### Web App
-Angular2 + Java 8,maven3, JPA/Hibernate ORM, Apache Felix, OSGi, Apache CXF services, Blueprint.xml, REST, SOAP.
+Angular (v4 or latest) + Java 8,maven3, JPA/Hibernate ORM, Apache Felix, OSGi, Apache CXF services, Blueprint.xml, REST, SOAP.
 > Karaf Docker contained
 
 ### Storage
@@ -40,4 +40,3 @@ MongoDB
 ## Authoritative WIS Catalogue (AWISC) Real time notifications
 AMQP/RabbitMQ or activemq broker, Java 8
 >Docker contained
-
