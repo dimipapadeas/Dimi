@@ -1,42 +1,57 @@
 
-# S/W components standard technologies
+# Software components standard technologies
 
 
 ## Local Dissemination
 
 ### Web Server
-Tomcat, Java 8 JPA/Hibernate ORM
- >Docker contained
+AS: Tomcat
+JAVA: Java 8 
+ORM: JPA/Hibernate
+Version control: git
 
 ### File System
- RedHat/openSUSE  OpenSSH (SFTP server)
- >Docker contained
+OS: RedHat/openSUSE 
+SSH: OpenSSH (SFTP server)
 
 
 ### Dissemination Channel
-TBD Queue? FTP ?
+ Ad-hoc download:  Apache HTTP Server
+
 
 ### Storage
-MariaDB or MySQL
->Docker contained
+DATABASE: ORACLE or MySQL or MongoDB
 
 
 ### Web App /Sitemap / Directory listing pages
- Angular (v4 or latest) + Java 8, maven3, JPA/Hibernate ORM, Apache Felix, OSGi, Apache CXF services, Blueprint.xml, REST, SOAP,  Apache htaccess.
->Karaf Docker contained
+UI: Angular (v4 or latest)
+JAVA: Java 8, maven3
+ORM: JPA/Hibernate 
+OSGi: Apache Felix, Apache karaf, Apache CXF, Blueprint.xml
+REST: CXF, JSON
+SOAP: CXF
+HTTP: Apache HTTP Server
+CSV visualasation: RAWGraphs, Charts.JS Library, Kibana
+Version control: git
 
 
 ## Authoritative WIS Catalogue (AWISC)
 
 ### Web App
-Angular (v4 or latest) + Java 8,maven3, JPA/Hibernate ORM, Apache Felix, OSGi, Apache CXF services, Blueprint.xml, REST, SOAP.
-> Karaf Docker contained
+UI: Angular (v4 or latest)
+JAVA: Java 8, maven3
+ORM: JPA/Hibernate 
+OSGi: Apache Felix, Apache karaf, Apache CXF, Blueprint.xml
+Search engine: Elastic Search, Kibana, Apache Lucene
+REST: CXF 
+SOAP: CXF
+Version control: git
+
 
 ### Storage
-MongoDB
->Docker contained
+DATABASE: ORACLE or MySQL or MongoDB
 
 
 ## Authoritative WIS Catalogue (AWISC) Real time notifications
 AMQP/RabbitMQ or activemq broker, Java 8
->Docker contained
+Version control: git
