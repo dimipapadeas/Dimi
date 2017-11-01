@@ -1,19 +1,16 @@
 # OPP 6 WIS Djibouti Use cases (list)
 
 
-### Usecases Notes:
-Dataset = Data + Metadata
-Only Metadata is visible at web pages from users
 
 
 ## Mouktar's use cases:
 
 
 1. Uploads new datasets
-2. Defines guidelines for extreme weather conditions
-3. Defines the `product delivery format`
+2. Defines the `product delivery format`
+3. Defines guidelines for extreme weather conditions
 4. The system processes data from external queues and notifies Muktar upon extreme deviations
-5. Uses the application to automatically the generates/edits dataset's most of web content
+5. Uses the application to automatically the generated/edits dataset's most of web content
 6. The dataset's HTML page automatically generates CSV visualization in the form of a graph
 7. Enhances HTML pages with JSON-LD information related to Google and AWISC
 8. Registers site-map with AWISC
