@@ -1,60 +1,46 @@
-# OPP 6 WIS Djibouti Use cases (list)
-
-
-
+# OPP-6-WIS-Djibouti Use Cases
 
 ## Mouktar's use cases:
 
+[UCS-001: Upload new datasets](https://github.com/OpenWIS/djibouti/issues/1)  
+UCS-002: Create a Python script to check for 3SD for automatic detection of "bad data" from incoming sources.  
+UCS-003: Use the local web application to automatically generate/edit most of HTML content of the dataset page
+UCS-004: The dataset's HTML page automatically generates CSV visualization in the form of a graph  
+UCS-005: Enhances HTML pages with JSON-LD information related to Google and AWISC  
+UCS-006: Register site-map with AWISC  
 
-1. Uploads new datasets
-2. Defines the `product delivery format`
-3. Defines guidelines for extreme weather conditions
-4. The system processes data from external queues and notifies Muktar upon extreme deviations
-5. Uses the application to automatically the generated/edits dataset's most of web content
-6. The dataset's HTML page automatically generates CSV visualization in the form of a graph
-7. Enhances HTML pages with JSON-LD information related to Google and AWISC
-8. Registers site-map with AWISC
+## Mariam's use cases:  
+UCS-007: Discover weather observation dataset queues (using Google/AWISC)  
+UCS-008: Subscribe to weather observation dataset queues  
+UCS-009: Request re-send of missed notifications  
 
-## Mariam's use cases:
-9. Discovers weather observation dataset queues (using Google/AWISC)
-10. Subscribes to weather observation dataset queues
-11. Requests re-send of missed notifications
+## Dave's use cases:  
+UCS-010: Search for weather observations registered in AWISC via the AWISC web application  
+UCS-011: Search for weather observations registered in AWISC via the AWISC web services
 
-## Dave's use cases:
-12. Searches for weather observations registered in AWISC via the AWISC web application
-13. Searches for weather observations registered in AWISC via the AWISC web services
+## Mohamed's use cases:  
+UCS-012: Discover observation data via Google Search  
 
+## Omar's use cases:  
+UCS-013: Create dissemination queues of an uploaded dataset  
+UCS-014: Monitor dissemination queues of an uploaded dataset  
+UCS-015: Establish federated authentication via a trusted Identity Provider  
+UCS-016: Create `Automatic Weather Station` queues  
 
-## Mohamed's use cases:
-14. Discovers observation data via Google Search
+## Delly's use cases:  
+UCS-017: Upload fresh data automatically via web application  
 
+## Regional data sharing hub's use cases (RDSH):  
+UCS-018: Provide reliable & highly-available pub-sub messaging infrastructure  
 
-## Omar's use cases:
-
-15. Creates dissemination queues of an uploaded dataset
-16. Monitors dissemination queues of an uploaded dataset
-17. Establishes federated authentication via a trusted Identity Provider
-18. Creates `Automatic Weather Station` queues
-
-
-## Delly's use cases:
-19. Uploads fresh data automatically via web application
-
-
-## Regional data sharing hub's use cases (RDSH):
-20. Provides reliable & highly-available pub-sub messaging infrastructure
-
-
-## Authoritative WIS Catalogue's use cases (AWISC):
-
-21. Maintains a catalogue of official WIS datasets
-22. Periodically crawls registered pages and updates internal index
-23. Provides a dataset search page
-24. Provides a dataset search (REST) API
-25. Has its site-map registered in Google search
+## Authoritative WIS Catalogue's use cases (AWISC):  
+UCS-019: Maintain a catalogue of official WIS datasets  
+UCS-020: Periodically crawl registered pages and update internal index  
+UCS-021: Provide a dataset search page  
+UCS-022: Provide a dataset search (REST) API  
+UCS-023: Has its site-map registered in Google search  
 
 ---
 
-## Optional:
-26. External service integration (e.g. extreme weather effects to crops bulletin)
-
+## Optional:  
+UCS-024: External service integration (e.g. extreme weather effects to crops bulletin)  
