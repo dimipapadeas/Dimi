@@ -7,7 +7,7 @@ req: -
 (we consider it universal all the systems )
 
 
-#Regional data sharing hub\s use cases (RDSH):
+### Regional data sharing hub\s use cases (RDSH):
 UCS-018: Provide reliable & highly-available pub-sub messaging infrastructure
 req: -
 ( the pub-sub infrastructure )
@@ -30,7 +30,7 @@ req:003
 UCS-005: Enhances HTML pages with JSON-LD information related to Google and AWISC
 req:003
 req:019 // AWISC
-#????????????????????????????????? mhpws kanei req to 6
+# ????????????????????????????????? mhpws kanei req to 6
 
 
 UCS-006: Register site-map with AWISC
@@ -39,8 +39,7 @@ req:019
 
 
 
-
-#Omar`s use cases:
+### Omar`s use cases:
 
 UCS-018:reliable & highly-available pub-sub messaging infrastructure
 req-a auth only..
@@ -48,8 +47,9 @@ req-a auth only..
 UCS-016: Create Automatic Weather Station queues (AWS)
 req:001
 req:018
+```
 { 
-    TODO CHECK AGAIN...
+##    TODO CHECK AGAIN...
        Automatic Weather Station
     Mouktar is keen to automate the collection of data so that he can receive more regular observations- once per hour. 
   
@@ -62,9 +62,10 @@ req:018
       for observation data from Assa Gaïla, which is then automatically propagated to other subscribers (such as Mariam) and to the CSV dataset.
 
 }
+```
 
 UCS-013: Create dissemination queues of an uploaded dataset
-req:016 ???? or 01 // den pernei input apo to AWSqueues???
+## req:016 ???? or 01 // den pernei input apo to AWSqueues???
 req:018
 
 UCS-014: Monitor dissemination queues of an uploaded dataset
@@ -81,7 +82,7 @@ req auth mechanism
 UCS-020: Periodically crawl registered pages and update internal index
 req:005 //requires 19
 req:006( covers req:019)
- #(update internal index = indirectly updates RDSH queues data??? )???????????????????????????check again
+## (update internal index = indirectly updates RDSH queues data??? )???????????????????????????check again
 
 
 UCS-021: Provide a dataset search page
@@ -106,7 +107,7 @@ UCS-007: Discover weather observation dataset queues (using Google/AWISC)
 req:021 
 req:023
 + QUEUES?? ??????????????????????RECHECK
-#(finds observations via AWISC (21) or via Google Search(23) )  
+## (finds observations via AWISC (21) or via Google Search(23) )  
 
 
 UCS-008: Subscribe to weather observation dataset queues
